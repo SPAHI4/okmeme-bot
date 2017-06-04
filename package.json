@@ -1,0 +1,28 @@
+{
+  "name": "okmeme-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "npm": "latest",
+    "node": "latest"
+  },
+  "author": "SPAHI4",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "telegraf": "^3.7.3",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.24.1"
+  }
+}

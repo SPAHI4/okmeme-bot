@@ -23,7 +23,6 @@ app.on('inline_query', async (ctx) =>  {
 		title: text,
 		thumb_url: images[idx],
 		photo_url:  images[idx],
-		photo_height: 100,
 		id: idx.toString(),
 	})).filter(res => !!res.photo_url));
 })
